@@ -1,0 +1,54 @@
+{
+    "Profile": {
+      "title": "Desarrollador de software",
+      "buttom": "bajar cv",
+      "age": "31 años",
+      "dev":"DESARROLLADOR"
+    },
+    "LocaleLayout": {
+      "title": "Portfolio de Matias Zuñiga"
+    },
+    "Contact":{
+      "title1": "¿Tenés preguntas? ",
+      "title2": " Estoy a disposición ",
+      "name1":"Por favor, ingrese su nombre.",
+      "name2":"Nombre",
+      "mail1":"Por favor, ingrese su email.",
+      "mail2":"Email",
+      "message":"Dejame tu mensaje",
+      "buttom":"Enviar",
+      "alert1":"Complete todos los campos del formulario correctamente por favor"
+
+  },
+  "About":{
+    "intro1":"Soy ",
+    "intro2":", programador fullstack.",
+    "intro3":"En los últimos 3 años, he centrado mi carrera en la creación de herramientas de ",
+    "intro4":"alta calidad",
+    "intro5":" y en el desarrollo de soluciones. Mi compromiso con la formación y la mejora es constante, siempre en busca de ",
+    "intro6":"aprender y crecer",
+    "title":"Sobre mí",
+    "introMobile":"Durante los últimos 3 años, me enfoque en construir herramientas de alta calidad y en el desarrollo de soluciones performantes",
+    "title2":"Habilidades Técnicas",
+    "front1":"Prototipos en HTML, CSS y JavaScript para interfaces atractivas.",
+    "front2":"Optimización de rendimiento para garantizar una experiencia eficiente.",
+    "front3":"Diseño responsive.",
+    "front4":"Integración con APIs para la correcta manipulación de datos.",
+    "back1":"Desarrollo y mantenimiento de bases de datos, garantizando rendimiento.",
+    "back2":"Implementación de lógica de negocio y API RESTful.",
+    "back3":"Integración de servicios de terceros.",
+    "back4":"Gestión de la seguridad de datos y autenticación robusta."      
+  },
+  "Projects":{
+    "title": "Proyectos",
+    "p1":"Portfolio Personal",
+    "p1Detail":"Hecho con Next js",
+    "p2":"Portfolio de Fotografía",
+    "p2Detail":"Hecho con Astro",
+    "p3":"Crono App",
+    "p3Detail":"Hecho con Next js",
+    "option1":"Proyecto 1",
+    "option2":"Proyecto 2",
+    "option3":"Proyecto 3"
+  }
+  }

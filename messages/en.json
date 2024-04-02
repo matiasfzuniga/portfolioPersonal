@@ -1,0 +1,54 @@
+{
+    "Profile": {
+      "title": "Software Developer",
+      "buttom": "download cv",
+      "age": "age 31",
+      "dev":"DEVELOPER"
+    },
+    "LocaleLayout": {
+      "title": "Matias Zuñiga portfolio"
+    },
+    "Contact": {
+      "title1": "¿Have questions? ",
+      "title2": " Don't be shy ",
+      "name1":"Please, enter your name.",
+      "name2":"Name",
+      "mail1":"Please, enter your email.",
+      "mail2":"Email",
+      "message":"Leave me your message",
+      "buttom":"send",
+      "alert1":"Complete all the fields of the form correctly, please"
+  },
+  "About":{
+      "intro1": "Hi, I'm ",
+      "intro2":", fullstack developer.",
+      "intro3":" In the last 3 years, my focus has been on creating",
+      "intro4":" high-quality tools",
+      "intro5":" and developing high-performance solutions. I'm dedicated to learning and improvement, always eager",
+      "intro6":" to grow and expand my knowledge. ",
+      "title":"About",
+      "introMobile":"Over the past 3 years, my focus has been on building high-quality tools and developing high-performance solutions. ",
+      "title2":"Technical Skills",
+      "front1":"Designing and prototyping in HTML, CSS, and JavaScript to create interfaces.",
+      "front2":"Performance optimization on the client side to ensure an efficient user experience.",
+      "front3":"Ensuring browser and device compatibility through responsive design.",
+      "front4":"Integration with APIs and backend systems.",
+      "back1":"Developing and maintaining databases, ensuring performance and availability.",
+      "back2":"Implementing business logic and RESTful APIs.",
+      "back3":"Integrating third-party services to enhance application functionalities.",
+      "back4":"Managing data security and implementing robust authentication to protect sensitive information."
+  
+  },
+  "Projects":{
+    "title": "Projects",
+    "p1":"Personal Portfolio",
+    "p1Detail":"Build in Next js",
+    "p2":"Photography Portfolio",
+    "p2Detail":"Build in Astro",
+    "p3":"Crono App",
+    "p3Detail":"Build in Next js",
+    "option1":"Project 1",
+    "option2":"Project 2",
+    "option3":"Project 3"
+  }
+  }

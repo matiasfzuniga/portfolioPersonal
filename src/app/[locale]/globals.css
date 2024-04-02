@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 8 10% 98%;
+    --foreground: 20 14.3% 4.1%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+ 
+    --primary: 24 9.8% 10%;
+    --primary-foreground: 60 9.1% 97.8%;
+ 
+    --secondary: 60 4.8% 95.9%;
+    --secondary-foreground: 24 9.8% 10%;
+ 
+    --muted: 60 4.8% 95.9%;
+    --muted-foreground: 25 5.3% 44.7%;
+ 
+    --accent: 234 89% 95%;
+    --accent-foreground: 24 9.8% 10%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --border: 20 5.9% 80%;
+    --input: 20 5.9% 90%;
+    --ring: 20 14.3% 4.1%;
+ 
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 226 71% 3%;
+    --foreground: 24 5.7% 82.9%;
+ 
+    --card: 241 53% 4%;
+    --card-foreground: 226 11% 90%;
+ 
+    --popover: 20 14.3% 4.1%;
+    --popover-foreground: 60 9.1% 97.8%;
+ 
+    --primary: 60 9.1% 97.8%;
+    --primary-foreground: 24 9.8% 10%;
+ 
+    --secondary: 12 6.5% 15.1%;
+    --secondary-foreground: 60 9.1% 97.8%;
+ 
+    --muted: 241 53% 12%;
+    --muted-foreground: 24 5.4% 63.9%;
+ 
+    --accent: 241 53% 9%;
+    --accent-foreground: 60 9.1% 97.8%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 60 9.1% 97.8%;
+ 
+    --border: 224 60.5% 12%;
+    --input: 120 6.5% 15.1%;
+    --ring: 24 5.7% 82.9%;
+    
+  }
+}
+.containerWhite {
+  width: 100%;
+  height: 100%;
+
+  background: #f0f0f0;
+  --gap: 5em;
+  --line: 1px;
+  --color: rgba(83, 81, 81, 0.2);
+
+  background-image: linear-gradient(
+      -90deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    ),
+    linear-gradient(
+      0deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    );
+  background-size: var(--gap) var(--gap);
+}
+
+.containerDark {
+  width: 100%;
+  height: 100%;
+
+  background: #000000;
+  --gap: 5em;
+  --line: 1px;
+  --color: rgba(255, 255, 255, 0.2);
+
+  background-image: linear-gradient(
+      -90deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    ),
+    linear-gradient(
+      0deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    );
+  background-size: var(--gap) var(--gap);
+}
+
+
+.spinning-text-wrapper {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 0.7rem;
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+.spinning-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  animation: spin 50s linear infinite;
+}
+
+.spinning-text span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform-origin: 0 80px;
+}
+
+.spinning-text-wrapper img {
+  width: 80%;
+  height: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dadada;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E6E9FD;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #242424;
+  border-radius: 5px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #161616;
+}
+
+.dark .custom-button {
+  border:1px solid rgba(129, 140, 248) !important;
+  background-color: #070e24 !important;
+  border-radius: 5px !important;
+  height: 40px !important;
+  width: 100px !important;
+  font-size: 1rem !important;
+  color:#ffffff !important;
+}
+.dark .custom-button:hover{
+  background-color: #0B0A23 !important;
+}
+.dark .swal2-popup{
+  background: rgba(34, 34, 34, 0.94) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  border: none !important;
+  color:#ffffff !important;
+}
+.swal2-popup{
+  background: rgba(255, 255, 255, 0.94) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+.custom-button {
+  border: 1px solid rgba(129, 140, 248) !important;
+  background-color: #ffffff !important;
+  border-radius: 5px !important;
+  height: 40px !important;
+  width: 100px !important;
+  font-size: 1rem !important;
+  color:#000000 !important;
+}
+.custom-button:hover{
+  background-color: #E6E9FD !important;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@layer base {
+  * {
+    @apply border-border;
+    
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
