@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Personal
 
-## Getting Started
 
-First, run the development server:
+## Tecnologías Utilizadas
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![React](https://img.shields.io/badge/React-16.0%2B-blue)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-14.0%2B-green)](https://nodejs.org/)
+![ts](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+## 🚀 Estructura de proyecto
+
+Dentro de mi proyecto de Next, verás las siguientes carpetas y archivos:
+
+```text
+/
+├── public/
+├── src/
+│   └── app/
+|       └── [locale]/ 
+│           └── about/
+|               └── page.tsx
+│           └── components/
+|               └── ui/
+|                   └── button.jsx
+|                   └── card.jsx
+|                   └── input.jsx
+|                   └── separator.jsx
+|                   └── tabs.jsx
+|                   └── textarea.jsx
+|               └── email.tsx
+|               └── form.tsx
+|               └── logo.tsx
+|               └── menu.tsx
+|               └── profile.tsx
+|               └── spinning.tsx
+|               └── theme-provider.tsx
+|               └── themes.tsx
+|               └── toggle.tsx
+│           └── contact/
+|               └── page.tsx
+│           └── projects/
+|               └── page.tsx
+│           └── globals.css
+│           └── layout.tsx
+|           └── page.tsx
+|       └── api/
+|           └── send/
+|               └── route.ts
+|   └── lib/
+|       └── utils.ts
+│   └── config.ts
+│   └── i18n.ts
+│   └── middleware.ts
+│   └── navigation.ts
+└── package.json
+└──  ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+La web cuenta con Internacionalización (i18n) por eso el ruteo esta dentro de [locale]
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Dentro de `/components/`, encontramos componentes que reutilizables, tanto de shadcn.ui como propios
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Los elementos estáticos como algunas imagenes se encuentran en `public/`.
 
-## Learn More
+## 🧞 Comandos
 
-To learn more about Next.js, take a look at the following resources:
+Todos los comandos inician desde el root del proyecto, a través de la terminal:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Instalar dependencias                            |
+| `npm run dev`             | Inicia local dev server en `localhost:3000`      |
+| `npm run build`           | Crea el sitio de producción         |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 👀 Quieres ver la web en producción ?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Visita [la web oficial](https://matiasfzuniga.vercel.app) 
