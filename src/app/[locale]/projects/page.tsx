@@ -21,7 +21,7 @@ const Projects = ({ params: { locale } }: Props) => {
         <span className="bg-indigo-500 w-40 h-1"></span>
       </div>
       <div className="grid gap-4 justify-center lg:pt-7 pt-20">
-        <Link href={"https://github.com/matiasfzuniga/cv"} className="group relative flex">
+        <Link href={"https://github.com/matiasfzuniga/portfolioPersonal"} className="group relative flex">
           <Button
             variant="profile"
             className="h-20 lg:w-96 w-60 rounded-r-none dark:hover:bg-slate-900 hover:bg-indigo-100 group relative"
