@@ -34,7 +34,6 @@ export default function RootLayout({ children, params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   return (
     <html lang={locale} suppressHydrationWarning>
-      <link rel="icon" href="/logoMini.png" sizes="any" />
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
