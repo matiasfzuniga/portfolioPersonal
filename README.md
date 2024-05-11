@@ -61,7 +61,7 @@ Dentro de mi proyecto de Next, verás las siguientes carpetas y archivos:
 
 La web cuenta con Internacionalización (i18n) por eso el ruteo esta dentro de [locale]
 
-Dentro de `/components/`, encontramos componentes que reutilizables, tanto de shadcn.ui como propios
+Dentro de `/components/`, encontramos componentes que son reutilizables, tanto de shadcn.ui como componentes propios
 
 Los elementos estáticos como algunas imagenes se encuentran en `public/`.
 
